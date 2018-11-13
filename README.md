@@ -1,7 +1,7 @@
 # CS454
 Dummy program to be tested
 
-## Usage
+## Basic usage with JUnit
 Compile the class to be tested and the test suite. Then the run tests from the command line:
 ```
 javac Program0.java

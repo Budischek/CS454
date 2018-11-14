@@ -2,10 +2,18 @@
 Mock repository to be tested
 
 ## Basic usage with JUnit
-Compile the class to be tested and the test suite. Then the run tests from the command line:
+### Using script:
+Navigate to ..CS454/code and run the script:
 ```
-javac Program0.java
-javac -cp .:junit-4.12.jar:hamcrest-core-1.3.jar Program0Tester.java
-java  -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore Program0Tester
+./run_testSuite
+```
+
+### Manually:
+Compile the classes to be tested and the test suite. Then the run tests:
+```
+javac Class0.java
+javac Class1.java
+javac -cp .:junit-4.12.jar:hamcrest-core-1.3.jar TestSuite.java
+java  -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestSuite
 ```
 

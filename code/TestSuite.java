@@ -6,52 +6,30 @@ public class TestSuite {
   @Test
   public void evaluatesExpression() {
 
+// ****** Class0 test cases ******
     Class0 test0 = new Class0();
-    boolean bug0 = false;
 
-    // ****** method0 test cases ******
-    bug0 = test0.method0("aboklatesd"); System.out.printf("\nbug0=%b", bug0);
-    // assertEquals(false, bug0);
-    bug0 = test0.method0("aicobmsjqw"); System.out.printf("\nbug0=%b", bug0);
-    // assertEquals(false, bug0);
-    bug0 = test0.method0("helloworld"); System.out.printf("\nbug0=%b", bug0);
-    // assertEquals(false, bug0);
-    bug0 = test0.method0("hyowodxxsb"); System.out.printf("\nbug0=%b", bug0);
-    // assertEquals(false, bug0);
+    test0.method0("abcklatesd");
+    test0.method0("aicobmsjqw");
+    test0.method0("hellowzrld");
+    test0.method0("hyosodxxov");
 
-    // ****** method1 test cases ******
-    bug0 = test0.method1("bcoadgasds"); System.out.printf("\nbug0=%b", bug0);
-    // assertEquals(false, bug0);
-    bug0 = test0.method1("mhmsdtyoax"); System.out.printf("\nbug0=%b", bug0);
-    // assertEquals(false, bug0);
-    bug0 = test0.method1("herroyouuh"); System.out.printf("\nbug0=%b", bug0);
-    // assertEquals(false, bug0);
-    bug0 = test0.method1("lpokiqmcte"); System.out.printf("\nbug0=%b", bug0);
-    // assertEquals(false, bug0);
+    test0.method1("bcsydgasds");
+    test0.method1("mhmsdtloax");
+    test0.method1("herroyouuh");
+    test0.method1("lpokiqmcre");
 
-
+// ****** Class1 test cases ******
     Class1 test1 = new Class1();
-    boolean bug1 = false;
 
-    // ****** method0 test cases ******
-    bug1 = test1.method0("xyoklatesd"); System.out.printf("\nbug1=%b", bug1);
-    // assertEquals(false, bug1);
-    bug1 = test1.method0("xdcppmsjqw"); System.out.printf("\nbug1=%b", bug1);
-    // assertEquals(false, bug1);
-    bug1 = test1.method0("helloworld"); System.out.printf("\nbug1=%b", bug1);
-    // assertEquals(false, bug1);
-    bug1 = test1.method0("hyowodxxsb"); System.out.printf("\nbug1=%b", bug1);
-    // assertEquals(false, bug1);
+    test1.method0("xyumlatesd");
+    test1.method0("xdcppmtjbw");
+    test1.method0("helloworld");
+    test1.method0("hyowodxxsm");
 
-    // ****** method1 test cases ******
-    bug1 = test1.method1("bcoadgasds"); System.out.printf("\nbug1=%b", bug1);
-    // assertEquals(false, bug1);
-    bug1 = test1.method1("womsdtyoax"); System.out.printf("\nbug1=%b", bug1);
-    // assertEquals(false, bug1);
-    bug1 = test1.method1("heplyooihm"); System.out.printf("\nbug1=%b", bug1);
-    // assertEquals(false, bug1);
-    bug1 = test1.method1("lpokiqmcte"); System.out.printf("\nbug1=%b", bug1);
-    // assertEquals(false, bug1);
-
+    test1.method1("bcoadlasds");
+    test1.method1("womsdtyoav");
+    test1.method1("heplyooidm");
+    test1.method1("lpokiqjcte");
   }
 }

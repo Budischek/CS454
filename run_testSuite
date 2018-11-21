@@ -1,6 +1,6 @@
 #! /bin/bash
 
-rm *.class
+rm code/*.class
 
 javac code/Class0.java
 javac code/Class1.java

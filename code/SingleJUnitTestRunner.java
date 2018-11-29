@@ -5,10 +5,6 @@ import org.junit.runner.Result;
 public class SingleJUnitTestRunner {
     public static void main(String... args) throws ClassNotFoundException {
         String[] classAndMethod = args[1].split("#");
-
-        System.out.printf("classAndMethod[0]: %s\n", classAndMethod[0]);
-        System.out.printf("classAndMethod[1]: %s\n", classAndMethod[1]);
-
         Request request = Request.method(Class.forName(classAndMethod[0]),
                 classAndMethod[1]);
 
